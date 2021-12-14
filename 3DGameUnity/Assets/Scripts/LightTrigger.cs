@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class LightTrigger : MonoBehaviour
 {
@@ -24,6 +25,10 @@ public class LightTrigger : MonoBehaviour
             light2.SetActive(true);
             // play scary sound effect too?
             openDoor = true;
+
+            GameObject canvs = GameObject.Find("UserInterface");
+            GameObject textHold = canvs.transform.GetChild(1).gameObject;
+            textHold.SetActive(true);
         }
     }
 }
