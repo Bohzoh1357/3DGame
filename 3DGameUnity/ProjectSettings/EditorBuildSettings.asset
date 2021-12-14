@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Greybox.unity
     guid: 5f4336bb196614a4189af95247a59d56
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 09a9e6408266d354da17e7df136c1e1f
+  - enabled: 1
+    path: Assets/Scenes/Controls.unity
+    guid: 1bcef970c208bf640b3a43e2a9e92420
   m_configObjects: {}
